@@ -1,61 +1,87 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link    { color: black;  }
+a:visited { color: black;   }
+a:hover   { color: white; }
 
 body {
-  background-color: #fffde7;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f3ebe7;
 }
 
-header, h1 {
-  background-color: grey;
-  text-align: left;
+.static {
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+header {
+  border-bottom: solid 1px;
+  background-color: #f3ebe7;
+}
+
+ header, h1, nav {
+  text-align: center;
   margin: 0;
   padding: 5px 5px 5px 5px;
-  color: white;
-  font-family: 'Abril Fatface', cursive;
-  font-size:25px;
+  color: black;
+  font-size: 25px;
 }
 
+h1  {
+  font-size: 50px;
+}
 
-nav {
-  text-align: center;
-  margin-bottom: 10px;
+hr {
+  margin: 0;
+}
+
+.center { 
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding-bottom: 25px;
 }
 
 p {
   text-align: center;
   font-size: 20px;
+  margin: 5px 100px 5px 100px;
 }
 
+.welcome {
+font-size: 50px;
+}
 
 h2 {
   text-align: center;
 }
 
-.center { 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
+ol {
+  margin-top: 0px;
 }
 
 li {
+  width: 385px;
   margin-left: auto;
   margin-right: auto;
-  list-style-position: inside;
+  font-size: smaller;
 }
 
-h3 {
-  text-align: center;
-  color: red;
+.footer-images {
+  margin: 0 auto;
+  width: fit-content;
+  
 }
-
-
 
 .contact-images {
   width: 50px;
   height: 50px;
-}
-
-.footer {
-  margin: 0 auto;
-  width: fit-content;
 }
